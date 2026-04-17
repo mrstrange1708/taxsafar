@@ -4,12 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-gray-50 text-slate-800 antialiased;
+    @apply bg-blue-50 text-slate-800 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
   }
 }
 
 @layer utilities {
   .glassmorphism {
-    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+    @apply bg-white/70 dark:bg-slate-900/70 backdrop-blur-md border border-white/20 dark:border-slate-800/50 shadow-lg;
   }
 }
